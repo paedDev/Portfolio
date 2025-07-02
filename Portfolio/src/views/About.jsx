@@ -2,7 +2,11 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className='h-screen w-full mx-auto bg-sky-950'>
+      <div>
+
+      </div>
+    </div>
   );
 };
 

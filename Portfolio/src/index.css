@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@layer utilities {
+}
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+  .font-jet {
+    font-family: "JetBrains Mono", monospace;
+  }
+  .nav-hover {
+    @apply hover:text-emerald-400 duration-400 transition-colors focus:text-emerald-400;
+  }
+  .mobile-nav-hover {
+    @apply hover:text-emerald-400 duration-400 transition-colors focus:text-emerald-400 hover:bg-gray-950/50 px-4 py-2 rounded;
+  }
+}
