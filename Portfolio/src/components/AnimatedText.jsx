@@ -2,7 +2,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 
 const AnimatedText = () => (
-  <h2 className="lg:text-5xl md:text-3xl text-2xl font-semibold text-gray-400">
+  <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold text-gray-400">
     <Typewriter
       words={['I build things for the web.', 'I love to code.', 'Full stack developer.']}
       loop={0}
